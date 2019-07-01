@@ -1,0 +1,2 @@
+export const SEARCH_NEW_CITY = 'SEARCH_NEW_CITY';
+export const REMOVE_CITY = 'REMOVE_CITY';
