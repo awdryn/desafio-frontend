@@ -36,7 +36,7 @@ class WeatherCard extends Component {
                             <Col span={8}>
                                 <div>
                                     <Row>
-                                        <span className="text2"><Icon type="arrow-up" />{roundNumber(firstForeCast.main.temp_min)}°C <Icon type="arrow-down" />{roundNumber(firstForeCast.main.temp_max)}°C</span>
+                                        <span className="text2"><Icon type="arrow-down" />{roundNumber(firstForeCast.main.temp_min)}°C <Icon type="arrow-up" />{roundNumber(firstForeCast.main.temp_max)}°C</span>
                                     </Row>
                                 </div>
                             </Col>
